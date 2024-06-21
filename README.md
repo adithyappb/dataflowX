@@ -38,7 +38,5 @@ Open a web browser and go to http://localhost:8080/data
 - Monitor Kafka topics and MongoDB for data ingestion and storage respectively.
 
 # Additional Notes
-Adjust Kafka and MongoDB configurations in application.properties and docker-compose.yml as per your environment setup.
-The Spark job processes data from Kafka topic "topic" and saves it to MongoDB "realtime.data".
-
-This project integrates various technologies such as Spring Boot, Apache Spark, Kafka, and MongoDB to demonstrate real-time data processing and visualization. The provided code and structure adhere to best practices and are designed to be scalable and maintainable.
+- Adjust Kafka and MongoDB configurations in application.properties and docker-compose.yml as per your environment setup.
+- The Spark job processes data from Kafka topic "topic" and saves it to MongoDB "realtime.data".
